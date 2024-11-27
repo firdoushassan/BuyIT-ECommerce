@@ -275,7 +275,7 @@ const resetPasswordRequest = async (req, res, next) => {
     const passwordResetLink = `https://mern-shop-abxs.onrender.com/reset-password/${user._id}/${token}`;
     console.log(passwordResetLink);
     await transporter.sendMail({
-      from: `"MERN Shop" ${process.env.EMAIL_FROM}`, // sender address
+      from: `"BuyIT" ${process.env.EMAIL_FROM}`, // sender address
       to: user.email, // list of receivers
       subject: 'Password Reset', // Subject line
       html: `<p>Hi ${user.name},</p>
@@ -287,7 +287,7 @@ const resetPasswordRequest = async (req, res, next) => {
             <p>If you didn't request this, you can ignore this email.</p>
 
             <p>Thanks,<br>
-            MERN Shop Team</p>` // html body
+            BuyIT Team</p>` // html body
     });
 
     res
