@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Navbar, Nav, NavDropdown, Container, Badge, InputGroup, Form} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container, Badge, Form, InputGroup } from 'react-bootstrap';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
@@ -34,8 +34,7 @@ const Header = () => {
         background: 'linear-gradient(45deg, #89A8B2, #B3C8CF)',
         color: '#E5E1DA',
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-        marginBottom: '50px',
-        fontWeight: 'bold'
+        marginBottom: '50px'
       }}
       expand='md'
       collapseOnSelect
@@ -45,7 +44,7 @@ const Header = () => {
 
         <LinkContainer to='/'>
           <Navbar.Brand style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#F1F0E8' }}>
-            <img src="/BuyIT.png" alt="BuyIT" style={{ height: '40px', marginRight: '10px' }} />
+            <img src="BuyIT.png" alt="BuyIT" style={{ height: '40px', marginRight: '10px' }} />
           </Navbar.Brand>
         </LinkContainer>
         
@@ -69,9 +68,9 @@ const Header = () => {
           marginLeft: '5px',
           color: '#333',
           position: 'relative',
-          top: '-7px',
+          top: '-5px',
           right: '-5px',
-          left: '-7px',
+          left: '-5px',
           fontSize: '0.8rem',
         }}
       >
