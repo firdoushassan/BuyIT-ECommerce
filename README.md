@@ -56,7 +56,7 @@ This project is part of the final submission for my internship at Innomatics Res
 ## Project Structure
 
 ```plaintext
-10 - BuyIT ECommerce/
+BuyIT-ECommerce/
 ├── backend/
 │   ├── config/          # Configuration files
 │   ├── controllers/     # API logic
@@ -81,7 +81,6 @@ This project is part of the final submission for my internship at Innomatics Res
 │
 ├── uploads/             # Media uploads (images, files)
 ├── .env                 # Environment variables
-├── .gitignore           # Git ignore file
 ├── package.json         # Project metadata and scripts
 └── README.md            # Main documentation
 ```
