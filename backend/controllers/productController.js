@@ -42,7 +42,7 @@ const getProducts = async (req, res, next) => {
 // @access   Public
 const getTopProducts = async (req, res, next) => {
   try {
-    const products = await Product.find({}).sort({ rating: -1 }).limit(3);
+    const products = await Product.find({}).limit(5);
 
     if (!products) {
       res.statusCode = 404;
