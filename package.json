@@ -32,6 +32,5 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "dotenv": "^16.4.5"
   }
 }
